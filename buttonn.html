@@ -11,6 +11,16 @@
         direction: rtl;
         font-family: tahoma;     
     }
+
+    .google{
+        background-color: rgb(199, 0, 0);
+        color: white;
+       padding: 20px;
+        border-radius: 2px;
+        cursor: pointer; 
+        transition: background-color 1s;
+
+    }
     .Subs{
         background-color: rgb(199, 0, 0);
         color: white;
@@ -19,6 +29,7 @@
         width: 105px;
         border-radius: 2px;
         cursor: pointer; 
+        transition: background-color 1s;
         }
         .joy{
             background-color: white;
@@ -58,12 +69,18 @@
 </style>
 <body>
 <a href="https://shad.ir/" class="twt"></a>
-</body>
 <button class="Subs">SUBSCRIB</button>
 <br>
 <br>
 <button class="joy">JOIN</button>
 <br>
 <br>
-<button class="twt">shad</button>
+<a href="http://google.com" class="google">google</a>
+<button onclick="fun()" class="twt">shad</button>
+<script>
+    function fun() {
+      alert('hello world')
+    }
+</script>
+</body>
 </html>
