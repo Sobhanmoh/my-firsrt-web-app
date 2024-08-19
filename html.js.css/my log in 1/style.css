@@ -1,6 +1,7 @@
-
 body{
-    background: url("c2726e8551bb2ccb6d8172425bc17b17.jpg");
+    background-image: url(http://demos.creative-tim.com/paper-kit-2/assets/img/antoine-barres.jpg);
+    background-attachment: fixed ;
+    background-size: cover;
 }
 
 .div{
@@ -11,27 +12,17 @@ body{
 
 }
 
-.eks{
-    width: 50px;
-    height: 50px;
-    border:2px solid green ;
-    border-radius: 30px ;
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
 
 .big-div{
-    background-color:rgb(0, 162, 255) ; 
-    backdrop-filter: blur(3.5px);
+    background-color: rgba(255,255,255,0.15);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    backdrop-filter:blur(3.5px);
+    border: 1px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 12px;
-    padding: 70px;
+    padding: 100px;
     width: 120px;
     margin: auto;
     border-radius: 12px;
@@ -73,10 +64,9 @@ body{
 
 
 #btn2{
-    background-color: ;
     cursor: pointer;
     width: 100px;
-    height: 32px;
+    height: 38px;
     border-radius: 30em;
     font-size: 15px;
     font-family: inherit;
@@ -86,11 +76,11 @@ body{
     z-index: 1;
     box-shadow: 6px 6px 12px #c5c5c5;
     color: #2600ff;
+    margin-top: 8px;
 }
 
 #btn1{
 background-color: rgba(255,255,255,0.15);
-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 backdrop-filter:blur(3.5px);
 border-radius: 10px;
 border: none;
@@ -98,11 +88,12 @@ width: 100px;
 height: 40px;
 cursor: pointer;
 color: #2600ff;
+margin-top: 8px;
+transition: 0.5s;
 }
 
 #btn3{
 background-color: rgba(255,255,255,0.15);
-box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 backdrop-filter:blur(3.5px);
 border-radius: 10px;
 border: none;
@@ -110,13 +101,19 @@ width: 100px;
 height: 30px;
 cursor: pointer;
 color: #2600ff;
+margin-top: 8px;
+transition: 0.5s;
 }
 
 #email{
-    padding: 12px;
+    padding: 15px;
     border: none;
     border-radius: 12px;
-    box-shadow: 2px 2px 30px black;
+    transition: 0.5s;
+}
+
+#email:hover{
+    box-shadow: 2px 2px 30px  rgb(3, 118, 226);
 }
 
 #div1{
@@ -127,7 +124,7 @@ color: #2600ff;
 #btn2::before{
     content: '';
     width: 0;
-    height: 32px;
+    height: 38px;
     border-radius: 30em;
     position: absolute;
     top: 0;
@@ -175,30 +172,38 @@ color: #2600ff;
 }
 
 .loin{
-    color: rgb(255, 196, 0);
-    font-family: serif ;
-    font-weight: bold;
-    color:#2600ff ;
-}
+        font-size: 40px;
+        color: #fff;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+      
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #079fce, 0 0 40px #079fce, 0 0 50px #079fce, 0 0 60px #079fce, 0 0 70px #079fce;
+        }
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px #1100fa, 0 0 40px #1100fa, 0 0 50px #1100fa, 0 0 60px #1100fa, 0 0 70px #1100fa, 0 0 80px #1100fa;
+        }
+      }
 
-.mobile{
-    padding: 90px;
-    width:70px;
-    background-color: rgb(180, 180, 180);
-    margin: auto;
-    border-radius: 16px;
-}
 
-.inp1{
-    width: 30px;
-    height: 30px;
-    border: none;
-    border-radius: 6px;
-
-}
-
-.input-gtoup{
+.house{
     display: flex;
-    gap: 5px;
     justify-content: center;
+    flex-direction: column;
+}
+
+#btn1:hover{
+    box-shadow: 10px 15px 30px 0 rgba(0, 0, 0, 0.37);
+}
+
+#btn3:hover{
+    box-shadow: 10px 15px 30px 0 rgba(0, 0, 0, 0.37);
+}
+
+.setting { 
+    position: fixed;
 }
