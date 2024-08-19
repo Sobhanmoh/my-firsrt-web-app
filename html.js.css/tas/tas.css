@@ -1,0 +1,30 @@
+#div3{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+#div4{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+#div5{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+#div-big{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+
