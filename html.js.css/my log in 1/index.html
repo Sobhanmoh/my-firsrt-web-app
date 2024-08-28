@@ -5,48 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>web site-sabet</title>
+    <link rel="stylesheet" href="image-backgrand">
 </head>
 
-         <div class="page-header section-dark"
-           style="background-image: url('')" >
+     <header class="header">
 
-        <div class="sabet">
-            <div class="d1"></div>
-            <div class="d2"></div>
-            <div class="d3"></div>
+        
+    </header>
+    <div class="search-wrapper">
+        <div class="input-holder">
+            <input type="text" class="search-input" placeholder="Type to search" />
+            <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+        </div>
+        <span class="close" onclick="searchToggle(this, event);"></span>
     </div>
 
-    <script src="https://cdn.lordicon.com/lordicon.js"></script>
-    <lord-icon class="setting"
-        src="https://cdn.lordicon.com/oxgyjdir.json"
-        trigger="hover"
-        stroke="light"
-        state="hover-pinch"
-        colors="primary:#000000,secondary:#000000"
-        style="width:250px;height:50px">
-    </lord-icon>
+ 
+     
+         <div class="big-div">
 
-    <div class="big-div">
+            <h1 class="loin">Log in</h1>
 
-        <H1 class="loin">
-            Log in
-        </H1>
-
-    <div id="div1">
+        <div id="div1">
     </div>
 
-    <input id="email" type="email" placeholder="email">
+        <input id="email-pas" type="email" placeholder="email">
+        <input id="email-pas" type="password" placeholder="password">
 
-    <button id="btn2">
-        Log in
-    </button>
+        <button id="btn"><a href="#">Login</a></button>
 
-    <button id="btn1">forget password</button>
-    <button id="btn3">sing in</button>
+        <button id="btn1">forget password</button>
+        <button id="btn3">sing in</button>
     </div>
 
-
-
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
 <script src="index.js"></script>
 </body>
 </html>
