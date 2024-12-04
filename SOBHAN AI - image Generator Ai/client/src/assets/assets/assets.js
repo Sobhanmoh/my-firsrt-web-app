@@ -20,15 +20,17 @@ import credit_star from './credit_star.svg'
 import profile_icon from './profile_icon.png'
 
 import icon1 from './icon1.png'
-import icon2 from './icon2.png'
 
 import icon3 from './icon3.png'
-import icon4 from './icon4.png'
+
+import icon5 from './icon5.png'
+
+import icon6 from './icon6.png'
 
 export const assets = {
-    icon4,
+    icon6,
+    icon5,
     icon3,
-    icon2,
     icon1,
     logo,
     logo_icon,
@@ -70,7 +72,7 @@ export const testimonialsData = [
         image:profile_img_1,
         name:'Donald Jackman',
         role:'Graphic Designer',
-        stars:5,
+        stars:4,
         text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
     },
     {
@@ -84,7 +86,7 @@ export const testimonialsData = [
         image:profile_img_1,
         name:'Donald Jackman',
         role:' Graphic Designer',
-        stars:5,
+        stars:3,
         text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
     },
 ]
